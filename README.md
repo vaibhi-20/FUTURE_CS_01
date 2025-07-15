@@ -13,6 +13,8 @@ This repository presents a comprehensive security testing report for a sample we
 3. HTTP Request/Response Analysis using Burp Suite
 4. Web Application Security Assessment
 
+---
+
 ### 🧰 **Tools & Testing Platforms**
 1. **Tools:** Burp Suite, cutome made wordlists
 2. **Testing Platforms:** DVWA ( DAMN VULNERABLE WEB APPLICATION ) & OWASP JUICE SHOP
@@ -37,7 +39,7 @@ This repository presents a comprehensive security testing report for a sample we
   5. Final conclusion & recommendation.
 
 ---
-### :injection **Vulnerabilities Tested**
+### 🧪 **Vulnerabilities Tested**
 1. SQL Injection (SQLi):
    - bypass login using sql payload ("'or'1'='1'--")
    - extracted user's credentials and database ( username, MD5 hashed passwords ) by using UNION-based PAYLOADS ( ' UNION SELECT username, password FROM users --)
@@ -63,4 +65,4 @@ This repository presents a comprehensive security testing report for a sample we
 - Do not attempt these techniques on live or unauthorized systems, as it may be illegal and unethical.
 
 ---
-Connect with me on :linkedIn (https://www.linkedin.com/in/vaibhav-malhotra-1b893925a/)  
+Connect with me on linkedIn (https://www.linkedin.com/in/vaibhav-malhotra-1b893925a/)  
